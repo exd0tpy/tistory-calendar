@@ -31,7 +31,6 @@ for(let i = 0; i<25; i++){
 for(let i = 0 ; i<25;i++){
   
   gridList[i].onmouseover = () => {
-    console.log(tooltip);
     gridList[i].firstElementChild.style.visibility = 'visible';
   };
   gridList[i].onmouseleave = () => {
@@ -71,12 +70,15 @@ xhttp.onreadystatechange = function(){
 
         if(dateOffset<25){
           var a = document.createElement('a');
-          a.style.color = '#fff';
           let targetGrid = gridList[24-dateOffset];
+
+          a.style.color = '#fff';
+          a.innerText = dayString + '\n' + title;
+          a.href = postLink;
+
           targetGrid.style.backgroundColor = '#42b983';
-          targetGrid.firstElementChild.innerText = dayString + '\n' + title;
-          targetGrid.firstElementChild.href = postLink;
           targetGrid.firstElementChild.style.opacity = '1';
+          targetGrid.firstElementChild.appendChild(a)
         }
       }
 
