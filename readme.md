@@ -6,22 +6,23 @@ Github의 stat 캘린더는 개발 욕구를 증진시켜주는 역할도 하며
 
 이제 티스토리 위젯으로 포스팅 캘린더를 만나보세요 😃
 
-![](./images/preview.png)
-
+<img src='./images/preview.png' width='80%'>
 <img src='./images/preview_detail.png' width='50%' >
 
-[예시 페이지](dev-pengun.tistory.com)
+[예시 페이지](https://dev-pengun.tistory.com/)
 
 # :zap: 적용방법
 
 > 현재 Book Club 스킨에서만 적용 가능합니다.
 
-![](./images/home_setting.png)
-1. 스킨 편집 메뉴 > 홈 설정 > 홈 화면 글 수 30으로 설정
+<img src='./images/home_setting.png' width='80%'>
+
+### 1. 스킨 편집 메뉴 > 홈 설정 > 홈 화면 글 수 30으로 설정
 
 
-![](./images/html_setting.png)
-2. 스킨 편집 메뉴 > html 편집 > 원하는 위치에 코드 삽입
+<img src='./images/html_setting.png' width='80%'>
+
+### 2. 스킨 편집 메뉴 > html 편집 > 원하는 위치에 코드 삽입
 
 > 카테고리와 공지사항 중간의 위치는 약 630번째 줄에 삽입
 ```
