@@ -3,12 +3,20 @@
   "version": "1.1.0",
   "description": "Github calendar style Tistory post calendar",
   "main": "index.js",
-  "homepage": "",
+  "homepage": "https://github.com/ICEB3AR/tistory-calendar",
+  "bugs": {
+    "url": "https://github.com/ICEB3AR/tistory-calendar/issues",
+    "email": "jsw5258@ajou.ac.kr"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ICEB3AR/tistory-calendar.git"
+  },
+  "author": "ICEB34R <jsw5258@ajou.ac.kr>",
+  "license": "MIT",
   "dependencies": {}
 }
