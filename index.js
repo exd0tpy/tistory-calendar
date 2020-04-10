@@ -71,6 +71,7 @@ xhttp.onreadystatechange = function(){
 
         if(dateOffset<25){
           var a = document.createElement('a');
+          a.style.color = '#fff';
           let targetGrid = gridList[24-dateOffset];
           targetGrid.style.backgroundColor = '#42b983';
           targetGrid.firstElementChild.innerText = dayString + '\n' + title;
