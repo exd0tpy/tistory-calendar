@@ -85,5 +85,5 @@ xhttp.onreadystatechange = function(){
   }
 };
 
-xhttp.open("GET", "https://dev-pengun.tistory.com/", true);
+xhttp.open("GET", document.location.origin, true);
 xhttp.send();
