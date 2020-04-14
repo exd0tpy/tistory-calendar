@@ -18,7 +18,7 @@ Github의 stat 캘린더는 개발 욕구를 증진시켜주는 역할도 하며
 <img src='./images/home_setting.png' width='80%'>
 
 ### 1. 스킨 편집 메뉴 > 홈 설정 > 홈 화면 글 수 30으로 설정
-
+-------------------
 
 <img src='./images/html_setting.png' width='80%'>
 
@@ -34,7 +34,7 @@ Github의 stat 캘린더는 개발 욕구를 증진시켜주는 역할도 하며
   <script src="https://unpkg.com/tistory-calendar/index.js"></script>
 </div>		
 ```
-
+-------------------
 # :interrobang: 컨트리뷰트 또는 버그제보
 
 [Github Issue](https://github.com/ICEB3AR/tistory-calendar/issues)로 버그, 아이디어를 제보해주세요!
